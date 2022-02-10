@@ -1,0 +1,13 @@
+Package: MERO
+Title: Performing Monte Carlo Expectation Maximization Random Forest Imputation for Biological Data
+Version: 0.1.0
+Authors@R: person("Mohamed", "Soudy", email = "MohmedSoudy2009@gmail.com", role=c("aut", "cre"))
+Author: Mohamed Soudy [aut, cre]
+Maintainer: Mohamed Soudy <MohmedSoudy2009@gmail.com>
+Description: Perform missing value imputation for biological data using the random forest algorithm, the imputation aim to keep the original mean and standard deviation consistent after imputation.
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.1.2
+Imports: missForest, ggpubr, progress, doParallel, foreach
+NeedsCompilation: no
+Repository: CRAN
