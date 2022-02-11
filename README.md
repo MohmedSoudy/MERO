@@ -27,6 +27,7 @@ For the documentation see: [MERO Documentation](https://cran.r-project.org/web/p
 
 ```R
 library(MERO) 
+library(missForest)
 #Load a sample data 
 data(iris)
 summary(iris)
