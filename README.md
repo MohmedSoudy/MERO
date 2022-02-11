@@ -1,7 +1,8 @@
 # MERO: Monte Carlo Expectation Maximization Random Forest Imputation for Biological Data
 
-[![](https://www.r-pkg.org/badges/version/MERO?color=green)](https://CRAN.R-project.org/package=MERO) 
+[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/MERO?color=blue)](https://CRAN.R-project.org/package=MERO) 
 [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/MERO)](https://CRAN.R-project.org/package=MERO) 
+[![](https://www.r-pkg.org/badges/version/MERO?color=green)](https://CRAN.R-project.org/package=MERO) 
 
 # Installation
 
