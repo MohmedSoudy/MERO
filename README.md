@@ -45,6 +45,8 @@ Best.hit <- EvalImp(Originaldata = iris.mis[,1:4], ImputedSets = Imp.data[[1]],
 #Visualize the correlation between the original means and the imputed means of  the data sets
 PlotCorrelateMean(Best.hit[[2]],Best.hit[[3]])
 ```
+![](https://raw.githubusercontent.com/MohmedSoudy/datasharing/master/Corr.jpeg)
+
 # Contribution Guidelines
 
 For bugs and suggestions, the most effective way is by raising an issue on the github issue tracker. Github allows you to classify your issues so that we know if it is a bug report, feature request or feedback to the authors.
