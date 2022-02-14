@@ -31,14 +31,14 @@ EvalImp <- function(Originaldata, ImputedSets ,Imputed.mean, Imputed.sd)
   if (length(NA.SD) != 0)
   {
     Pro.sd <- Pro.sd[-NA.SD]  
-    Imputed.sd <- Imputed.sd[-NA.SD]
+    Imputed.sd <- Imputed.sd[-NA.SD,]
   }
   
   NA.mean <- which(is.na(Pro.means))
   if (length(NA.mean) != 0)
   {
     Pro.means <- Pro.means[-NA.mean]
-    Imputed.mean <- Imputed.mean[-NA.mean]
+    Imputed.mean <- Imputed.mean[-NA.mean,]
   }
   
   RMSE.Mean <- NULL
